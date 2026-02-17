@@ -16,6 +16,7 @@ En la era de los pagos instantáneos (UPI) y las transacciones móviles, las ins
 ![Riesgo](01_riesgo_metodo.png)
 #### 2. Volumen de Ataques por Dispositivo (Predominio Móvil)
 ![Distribución de Robos](02_volumen_dispositivo.png)
+
 *Hallazgo: El canal móvil concentra el 33.5% de los fraudes totales, confirmando una brecha de seguridad en la aplicación.*
 
 #### 2. Concentración de Montos (Histograma de Crimen)
