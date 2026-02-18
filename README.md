@@ -46,3 +46,41 @@ Para enfrentar el desbalance extremo de los datos (solo 0.2% de fraude), impleme
 
 ##### ✨ **Nota Técnica** 
 ##### El modelo entrenado (.pkl) no se incluye en el repositorio debido a restricciones de tamaño de GitHub y protocolos de seguridad, pero está disponible para su despliegue en entornos controlados.
+---------
+
+
+# 🏠 CAPÍTULO 2: Sistema de Scoring Bancario: Predicción de Préstamos Hipotecarios
+
+![Status](https://img.shields.io)
+![IA-Accuracy](https://img.shields.io)
+![IA-Recall](https://img.shields.io)
+
+### 🕵️ El Desafío del Negocio
+¿A quién le confiamos el capital del banco? En un entorno de 614 solicitantes, el objetivo fue predecir la aprobación de créditos. Analizamos si el banco prioriza la **Solvencia (Ingresos)** o la **Confianza (Historial)**.
+
+### 🔍 Hallazgos Estratégicos (Insights):
+1.  **Educación y Éxito:** Los **Graduados** tienen un **70.8%** de aprobación, un 10% más que los no graduados. 🎓
+2.  **La Zona "Vip":** El área **Semiurbana** es la consentida del banco, con un **75%** de éxito en las solicitudes. 🏡
+3.  **El "Filtro de Riqueza":** Para aprobar a alguien **sin historial crediticio**, el banco exige un salario promedio de **$9,153** (casi el doble que el promedio normal). 💰🚀
+
+### 📊 Evidencias Visuales de Riesgo:
+
+#### 1. Aprobación por Zona Geográfica
+![Aprobación por Zona](01_aprobacion_por_zona.png)
+
+#### 2. ¿Qué "mira" la IA para dar el crédito? (Feature Importance)
+![Importancia de Pistas](02_importancia_pistas_prestamo.png)
+
+*Análisis Técnico: El **ApplicantIncome** y el **LoanAmount** representan el 70% de la importancia. Es un modelo enfocado en la **Capacidad de Pago** sobre el comportamiento pasado.*
+
+---
+
+### 💡 Recomendación de Negocio (ROI)
+**"Se recomienda el lanzamiento de un 'Crédito Express' para el segmento Semiurbano-Graduado. Asimismo, el historial crediticio puede ser 'compensado' si el solicitante demuestra ingresos superiores a los $9,000 mensuales."**
+
+---
+
+### ⚙️ Especificaciones Técnicas
+*   **Motor de IA:** Random Forest Classifier (100 árboles).
+*   **Tratamiento de Datos:** Imputación por Mediana (Numéricos) y Moda (Categorías).
+*   **Nota Técnica:** El modelo entrenado (`.pkl`) no se incluye por razones de privacidad bancaria, pero el script de entrenamiento está disponible en el archivo `.py`.
