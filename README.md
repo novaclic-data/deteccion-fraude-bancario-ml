@@ -1,4 +1,4 @@
-# 🏦 CAPÍTULO 2: Detección de Fraude en Pagos Digitales: Un Enfoque de Ciberseguridad
+# 🏦 CAPÍTULO 1: Detección de Fraude en Pagos Digitales: Un Enfoque de Ciberseguridad
 
 ![Status](https://img.shields.io)
 ![Sector](https://img.shields.io)
