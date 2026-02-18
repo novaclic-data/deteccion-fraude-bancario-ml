@@ -1,4 +1,4 @@
-# 🏦 Detección de Fraude en Pagos Digitales: Un Enfoque de Ciberseguridad
+# 🏦 CAPÍTULO 2: Detección de Fraude en Pagos Digitales: Un Enfoque de Ciberseguridad
 
 ![Status](https://img.shields.io)
 ![Sector](https://img.shields.io)
@@ -76,11 +76,12 @@ Para enfrentar el desbalance extremo de los datos (solo 0.2% de fraude), impleme
 ---
 
 ### 💡 Recomendación de Negocio (ROI)
-**"Se recomienda el lanzamiento de un 'Crédito Express' para el segmento Semiurbano-Graduado. Asimismo, el historial crediticio puede ser 'compensado' si el solicitante demuestra ingresos superiores a los $9,000 mensuales."**
+**Se recomienda el lanzamiento de un 'Crédito Express' para el segmento Semiurbano-Graduado. Asimismo, el historial crediticio puede ser 'compensado' si el solicitante demuestra ingresos superiores a los $9,000 mensuales.**
 
 ---
 
 ### ⚙️ Especificaciones Técnicas
 *   **Motor de IA:** Random Forest Classifier (100 árboles).
 *   **Tratamiento de Datos:** Imputación por Mediana (Numéricos) y Moda (Categorías).
-*   **Nota Técnica:** El modelo entrenado (`.pkl`) no se incluye por razones de privacidad bancaria, pero el script de entrenamiento está disponible en el archivo `.py`.
+   
+#####*   **Nota Técnica:** El modelo entrenado (`.pkl`) no se incluye por razones de privacidad bancaria, pero el script de entrenamiento está disponible en el archivo `.py`.
