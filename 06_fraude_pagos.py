@@ -126,3 +126,69 @@ plt.savefig("03_distribucion_montos_robo.png")
 plt.close()
 
 print("✅ ¡Histograma de montos generado!")
+
+
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import classification_report
+import joblib
+
+# 1. CARGA (Tu carpeta 'datos' 📂)
+df = pd.read_csv("datos/fraude_pagos.csv")
+
+# 2. PREPARACIÓN DE PISTAS (X) Y OBJETIVO (y)
+# Usamos las que descubrimos ayer
+X = df[['Transaction_Amount', 'Payment_Method', 'Device_Used', 'Account_Age']]
+y = df['Fraudulent']
+
+# Convertimos palabras a números (Dummies)
+X = pd.get_dummies(X)
+
+# 3. DIVIDIMOS (80% Entrenamiento / 20% Examen)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# 4. ENTRENAMOS AL "DETECTIVE AGRESIVO"
+# Le decimos que el Fraude (1) es 100 veces más importante que lo normal (0)
+pesos = {0: 1, 1: 100}
+
+modelo_banco = RandomForestClassifier(
+    n_estimators=100, 
+    class_weight=pesos, 
+    max_depth=10, 
+    random_state=42,
+    n_jobs=-1 # Acelera el proceso usando toda la RAM de tu laptop
+)
+
+modelo_banco.fit(X_train, y_train)
+
+# 5. REPORTE DE CIBERSEGURIDAD
+predicciones = modelo_banco.predict(X_test)
+print("\n--- REPORTE DE CIBERSEGURIDAD (AJUSTADO) ---")
+print(classification_report(y_test, predicciones))
+
+# 6. GUARDAR EL CEREBRO
+joblib.dump(modelo_banco, 'modelo_fraude_bancario.pkl')
+print("\n✅ ¡IA 'congelada' y lista para el Portafolio!")
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# 1. Extraemos la importancia
+importancia = pd.Series(modelo_banco.feature_importances_, index=X.columns)
+
+# 2. Creamos la figura con márgenes automáticos
+plt.figure(figsize=(10, 6))
+importancia.sort_values(ascending=True).tail(10).plot(kind='barh', color='orange')
+
+plt.title('¿Qué pistas delatan más al estafador?')
+plt.xlabel('Importancia (Peso en la decisión)')
+
+# EL TRUCO MÁGICO: Ajusta los márgenes para que los nombres no se corten
+plt.tight_layout() 
+
+# 3. Guardamos la versión perfecta
+plt.savefig("04_importancia_pistas_fraude.png")
+plt.close()
+
+print("✅ ¡Gráfico de pistas REPARADO y guardado sin cortes!")
