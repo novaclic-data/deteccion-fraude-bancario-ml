@@ -41,6 +41,7 @@ Para enfrentar el desbalance extremo de los datos (solo 0.2% de fraude), impleme
 ###**⚙️ Especificaciones Técnicas**
 
 **Motor de IA:** Random Forest Classifier con Balanceo de Clases (Ratio 100:1).
+
 **Métrica Principal:** Recall del 94% en detección de anomalías.
 
 ##### ✨ **Nota Técnica** 
