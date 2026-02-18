@@ -39,8 +39,9 @@ Para enfrentar el desbalance extremo de los datos (solo 0.2% de fraude), impleme
 **Basado en el Recall del 94%, recomiendo implementar un protocolo de Autenticación Multifactor (MFA) para transacciones que superen los $2,500 y un límite de 'enfriamiento' para cuentas de menos de 30 días, atacando así los dos pilares que delatan al estafador.**
 
 ###**⚙️ Especificaciones Técnicas**
-Motor de IA: Random Forest Classifier con Balanceo de Clases (Ratio 100:1).
-Métrica Principal: Recall del 94% en detección de anomalías.
+
+**Motor de IA:** Random Forest Classifier con Balanceo de Clases (Ratio 100:1).
+**Métrica Principal:** Recall del 94% en detección de anomalías.
 
 ##### ✨ **Nota Técnica** 
 #####El modelo entrenado (.pkl) no se incluye en el repositorio debido a restricciones de tamaño de GitHub y protocolos de seguridad, pero está disponible para su despliegue en entornos controlados.
