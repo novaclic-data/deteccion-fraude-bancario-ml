@@ -23,4 +23,4 @@ En la era de los pagos instantáneos (UPI) y las transacciones móviles, las ins
 ![Distribución](03_distribucion_montos_robo.png)
 
 ### 💡 Recomendación Estratégica (ROI)
-**"Para estabilizar el margen de beneficio, se recomienda la implementación inmediata de biometría conductual en transacciones móviles de alto valor y un límite de 'enfriamiento' para cuentas de menos de 30 días de antigüedad."**
+**Para estabilizar el margen de beneficio, se recomienda la implementación inmediata de biometría conductual en transacciones móviles de alto valor y un límite de 'enfriamiento' para cuentas de menos de 30 días de antigüedad.**
