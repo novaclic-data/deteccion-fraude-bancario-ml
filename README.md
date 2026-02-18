@@ -84,4 +84,4 @@ Para enfrentar el desbalance extremo de los datos (solo 0.2% de fraude), impleme
 *   **Motor de IA:** Random Forest Classifier (100 árboles).
 *   **Tratamiento de Datos:** Imputación por Mediana (Numéricos) y Moda (Categorías).
    
-#####*   **Nota Técnica:** El modelo entrenado (`.pkl`) no se incluye por razones de privacidad bancaria, pero el script de entrenamiento está disponible en el archivo `.py`.
+##### *   **Nota Técnica:** El modelo entrenado (`.pkl`) no se incluye por razones de privacidad bancaria, pero el script de entrenamiento está disponible en el archivo `.py`.
