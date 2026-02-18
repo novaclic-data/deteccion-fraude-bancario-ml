@@ -44,5 +44,4 @@ Para enfrentar el desbalance extremo de los datos (solo 0.2% de fraude), impleme
 
 **Métrica Principal:** Recall del 94% en detección de anomalías.
 
-##### ✨ **Nota Técnica** 
-##### El modelo entrenado (.pkl) no se incluye en el repositorio debido a restricciones de tamaño de GitHub y protocolos de seguridad, pero está disponible para su despliegue en entornos controlados.
+##### ✨ **Nota Técnica** ##### El modelo entrenado (.pkl) no se incluye en el repositorio debido a restricciones de tamaño de GitHub y protocolos de seguridad, pero está disponible para su despliegue en entornos controlados.
