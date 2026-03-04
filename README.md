@@ -2,6 +2,11 @@
 
 ![Status](https://img.shields.io)
 ![Sector](https://img.shields.io)
+### 📊 Strategic Visual Insights
+- **Payment Risk:** [Analysis of risk levels per payment method](01_payment_risk_analysis.png)
+- **Device Vector:** [Distribution of fraud origin by device type](02_device_fraud_distribution.png)
+- **Financial Impact:** [Distribution of fraudulent transaction amounts](03_fraud_amount_distribution.png)
+- **Model Logic:** [Key features that trigger the fraud alert](04_fraud_key_features.png)
 
 ### 🕵️ El Desafío del Negocio
 En la era de los pagos instantáneos (UPI) y las transacciones móviles, las instituciones financieras enfrentan pérdidas millonarias por fraudes imperceptibles. En este proyecto de 51,000 registros, el objetivo fue "cazar" patrones criminales ocultos.
@@ -13,14 +18,14 @@ En la era de los pagos instantáneos (UPI) y las transacciones móviles, las ins
 
 ### 📊 Evidencia de Inteligencia
 #### 1. Riesgo por Método de Pago
-![Riesgo](01_riesgo_metodo.png)
+![Riesgo](01_payment_risk_analysis.png)  
 #### 2. Volumen de Ataques por Dispositivo (Predominio Móvil)
-![Distribución de Robos](02_volumen_dispositivo.png)
+![Distribución de Robos](02_device_fraud_distribution.png)
 
 *Hallazgo: El canal móvil concentra el 33.5% de los fraudes totales, confirmando una brecha de seguridad en la aplicación.*
 
 #### 2. Concentración de Montos (Histograma de Crimen)
-![Distribución](03_distribucion_montos_robo.png)
+![Distribución](03_fraud_amount_distribution.png)
 
 ### 🤖 Inteligencia Artificial: El "Radar" de Seguridad
 Para enfrentar el desbalance extremo de los datos (solo 0.2% de fraude), implementamos un modelo de **Random Forest** con pesos balanceados, logrando resultados de élite:
@@ -29,7 +34,7 @@ Para enfrentar el desbalance extremo de los datos (solo 0.2% de fraude), impleme
 *   **Poder Predictivo:** El modelo prioriza la seguridad, prefiriendo una alerta preventiva antes que una pérdida financiera.
 
 #### 🧠 ¿Qué "huele" la IA para detectar al criminal?
-![Pistas Criminales](04_importancia_pistas_fraude.png)
+![Pistas Criminales](04_fraud_key_features.png)
 
 *Análisis Técnico: El **Monto de la Transacción** y la **Antigüedad de la Cuenta** representan el 90% de la importancia. Esto confirma que el fraude es oportunista y busca el máximo beneficio en cuentas con poco historial.*
 
