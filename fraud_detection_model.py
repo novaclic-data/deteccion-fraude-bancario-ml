@@ -11,7 +11,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 
 # --- STEP 1: DATA INGESTION AND INITIAL DIAGNOSTICS ---
-df = pd.read_csv("C:\Users\PC\OneDrive\Documentos\ia_ml\datos\fraude_pagos.csv")
+df = pd.read_csv(r"C:\Users\PC\OneDrive\Documentos\ia_ml\datos\fraude_pagos.csv")
 print(f"--- DATASET LOADED: {len(df)} records found ---")
 
 # --- STEP 2: EXPLORATORY DATA ANALYSIS (EDA) ---
@@ -55,6 +55,19 @@ plt.ylabel('Frequency')
 plt.legend()
 plt.tight_layout()
 plt.savefig("03_fraud_amount_distribution.png")
+plt.close()
+
+# 3. Pie Chart: Device Fraud Distribution (Attack Vector)
+# Analyzing where the fraud originates (Mobile vs Desktop vs Tablet)
+device_counts = [806, 748, 729] # Based on our previous EDA
+device_labels = ['Mobile', 'Desktop', 'Tablet']
+
+plt.figure(figsize=(8, 6))
+plt.pie(device_counts, labels=device_labels, autopct='%1.1f%%', 
+        colors=['#e67e22', '#95a5a6', '#bdc3c7'], explode=(0.1, 0, 0))
+plt.title('Fraud Distribution by Device Type\n(Mobile as Primary Attack Vector)', fontsize=14)
+plt.tight_layout()
+plt.savefig("02_device_fraud_distribution.png")
 plt.close()
 
 # --- STEP 4: MACHINE LEARNING PREPARATION (FEATURE ENGINEERING) ---
