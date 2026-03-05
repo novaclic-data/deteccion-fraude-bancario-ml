@@ -1,12 +1,18 @@
 # 🏦 CAPÍTULO 1: Detección de Fraude en Pagos Digitales: Un Enfoque de Ciberseguridad
 
 ![Status](https://img.shields.io)
-![Sector](https://img.shields.io)
-### 📊 Strategic Visual Insights
-- **Payment Risk:** [Analysis of risk levels per payment method](01_payment_risk_analysis.png)
-- **Device Vector:** [Distribution of fraud origin by device type](02_device_fraud_distribution.png)
-- **Financial Impact:** [Distribution of fraudulent transaction amounts](03_fraud_amount_distribution.png)
-- **Model Logic:** [Key features that trigger the fraud alert](04_fraud_key_features.png)
+![IA-Accuracy](https://img.shields.io)
+![IA-Recall](https://img.shields.io)
+
+### 📈 Banking Credit Scoring: Loan Approval Strategy
+- **Credit History Impact:** [Analyzing the weight of past financial behavior](04_scoring_feature_importance.png)
+- **Solvency Analysis:** [Correlating applicant income with loan amount requests](04_scoring_feature_importance.png)
+- **Property Area Risk:** [Risk distribution by location and property type](01_property_area_approval.png)
+- **Predictive Logic:** [Top features driving the AI's credit decision](04_scoring_feature_importance.png)
+
+#### 🖼️ Visual Evidence:
+![Property Area Risk](01_property_area_approval.png)
+![Scoring Features](04_scoring_feature_importance.png)
 
 ### 🕵️ El Desafío del Negocio
 En la era de los pagos instantáneos (UPI) y las transacciones móviles, las instituciones financieras enfrentan pérdidas millonarias por fraudes imperceptibles. En este proyecto de 51,000 registros, el objetivo fue "cazar" patrones criminales ocultos.
