@@ -61,6 +61,14 @@ Para enfrentar el desbalance extremo de los datos (solo 0.2% de fraude), impleme
 ![Status](https://img.shields.io)
 ![IA-Accuracy](https://img.shields.io)
 ![IA-Recall](https://img.shields.io)
+### 📈 Banking Credit Scoring: Loan Approval Strategy
+- **Credit History Impact:** Analyzing the weight of past financial behavior.
+- **Solvency Analysis:** Correlating applicant income with loan amount requests.
+- **Socio-Economic Factors:** Risk distribution by education level and employment status.
+- **Predictive Logic:** Top features driving the AI's credit decision.
+
+![Property Area Risk](01_property_area_approval.png)
+![Scoring Features](04_scoring_feature_importance.png)
 
 ### 🕵️ El Desafío del Negocio
 ¿A quién le confiamos el capital del banco? En un entorno de 614 solicitantes, el objetivo fue predecir la aprobación de créditos. Analizamos si el banco prioriza la **Solvencia (Ingresos)** o la **Confianza (Historial)**.
@@ -73,10 +81,10 @@ Para enfrentar el desbalance extremo de los datos (solo 0.2% de fraude), impleme
 ### 📊 Evidencias Visuales de Riesgo:
 
 #### 1. Aprobación por Zona Geográfica
-![Aprobación por Zona](01_aprobacion_por_zona.png)
+![Aprobación por Zona](01_property_area_approval.png)
 
 #### 2. ¿Qué "mira" la IA para dar el crédito? (Feature Importance)
-![Importancia de Pistas](02_importancia_pistas_prestamo.png)
+![Importancia de Pistas](04_scoring_feature_importance.png)
 
 *Análisis Técnico: El **ApplicantIncome** y el **LoanAmount** representan el 70% de la importancia. Es un modelo enfocado en la **Capacidad de Pago** sobre el comportamiento pasado.*
 
