@@ -69,9 +69,7 @@ Para enfrentar el desbalance extremo de los datos (solo 0.2% de fraude), impleme
 - **Property Area Risk:** [Risk distribution by location and property type](01_property_area_approval.png)
 - **Predictive Logic:** [Top features driving the AI's credit decision](04_scoring_feature_importance.png)
 
-#### 🖼️ Visual Evidence:
-![Property Area Risk](01_property_area_approval.png)
-![Scoring Features](04_scoring_feature_importance.png)
+
 
 
 ### 🕵️ El Desafío del Negocio
