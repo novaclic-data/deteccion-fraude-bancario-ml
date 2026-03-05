@@ -62,14 +62,17 @@ Para enfrentar el desbalance extremo de los datos (solo 0.2% de fraude), impleme
 ![Status](https://img.shields.io)
 ![IA-Accuracy](https://img.shields.io)
 ![IA-Recall](https://img.shields.io)
-### 📈 Banking Credit Scoring: Loan Approval Strategy
-- **Credit History Impact:** Analyzing the weight of past financial behavior.
-- **Solvency Analysis:** Correlating applicant income with loan amount requests.
-- **Socio-Economic Factors:** Risk distribution by education level and employment status.
-- **Predictive Logic:** Top features driving the AI's credit decision.
 
+### 📈 Banking Credit Scoring: Loan Approval Strategy
+- **Credit History Impact:** [Analyzing the weight of past financial behavior](04_scoring_feature_importance.png)
+- **Solvency Analysis:** [Correlating applicant income with loan amount requests](04_scoring_feature_importance.png)
+- **Property Area Risk:** [Risk distribution by location and property type](01_property_area_approval.png)
+- **Predictive Logic:** [Top features driving the AI's credit decision](04_scoring_feature_importance.png)
+
+#### 🖼️ Visual Evidence:
 ![Property Area Risk](01_property_area_approval.png)
 ![Scoring Features](04_scoring_feature_importance.png)
+
 
 ### 🕵️ El Desafío del Negocio
 ¿A quién le confiamos el capital del banco? En un entorno de 614 solicitantes, el objetivo fue predecir la aprobación de créditos. Analizamos si el banco prioriza la **Solvencia (Ingresos)** o la **Confianza (Historial)**.
