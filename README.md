@@ -1,8 +1,3 @@
-<div align="center">
-  <a href="https://github.com">
-    <img src="banner-fraud.png" width="100%" alt="Fraud Detection Banner">
-  </a>
-
 # 🏦 CAPÍTULO 1: Detección de Fraude en Pagos Digitales: Un Enfoque de Ciberseguridad
 
 ![Status](https://img.shields.io)
