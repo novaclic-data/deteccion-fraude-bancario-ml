@@ -5,7 +5,7 @@
 ---
 ### 🚀 Strategic Expansion
 **This is a baseline fraud model. For high-precision solutions and Zero-Day architectures, visit our premium engine:**  
-👉 [Advanced Fraud Anomaly Detection Radar](https://github.com)
+👉 [Advanced Fraud Anomaly Detection Radar](https://github.com/novaclic-data/advanced-fraud-anomaly-detection-python)
 
 
 # 🏦 CAPÍTULO 1: Detección de Fraude en Pagos Digitales: Un Enfoque de Ciberseguridad
