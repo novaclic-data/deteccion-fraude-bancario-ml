@@ -2,6 +2,8 @@
 <img width="1500" height="300" alt="NovaClic_Data_Official_Brand_Banner" src="https://github.com/user-attachments/assets/8aeb7467-19cf-4e5e-ad7f-aeae651d3253" />
 </div>
 
+- **This is a baseline fraud model; for high-precision solutions and Zero-Day architectures, see:** [Advanced detection of fraud anomalies]
+
 
 # 🏦 CAPÍTULO 1: Detección de Fraude en Pagos Digitales: Un Enfoque de Ciberseguridad
 
