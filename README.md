@@ -1,6 +1,4 @@
-<div align="center">
-<img width="1500" height="300" alt="NovaClic_Data_Official_Brand_Banner" src="https://github.com/novaclic-data/advanced-fraud-anomaly-detection-python/blob/main/NovaClic_Data_Official_Brand_Banner.png?raw=true" />
-</div>
+
 
 ---
 ### 🚀 Strategic Expansion
